@@ -1,0 +1,110 @@
+nav{ position:relative; margin: 0px -15px 0 0; padding:2px 0 0 0; float:right;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:170px; text-align:left; }
+.sf-menu li {float:left;position:relative}
+.sf-menu>li>a{position:relative;font-size: 13px; color:#fff; text-transform:uppercase; padding: 5px 10px;}
+.sf-menu>li{ background:url(../images/nav_li.jpg) 0 7px no-repeat; padding:0 5px 0;}
+.sf-menu>li:first-child{ background:none;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{
+	
+	background: #12212F;
+border-radius: 3px;
+padding: 5px 10px;
+	color:#fff;
+	
+	}
+.sf-menu>li.sfHover>a>span.sf-sub-indicator{width:13px;height:12px; display:block; left:19px; top:27px; position:absolute; background:url(../images/nav_cut1.png) no-repeat;}
+.sf-menu li ul li.sfHover>a>span.sf-sub-indicator{width:12px;height:13px; display:block; right:-13px; bottom:7px; position:absolute; background:url(../images/nav_cut2.png) no-repeat;}
+/*================================>> 2 Level <<========================================*/
+.sf-menu>li>ul,.sf-menu>li.sfHover>ul{ top:40px; /* match top ul list item height */z-index:99; background:#12212F;
+
+
+ border-radius:0px;
+	
+	
+	 
+	  
+	  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	  -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	
+
+}
+.sf-menu>li>ul>li{ text-align:left; }
+.sf-menu li ul li:first-child{ background:none;}
+.sf-menu li ul li a{
+	font-size: 13px; line-height: 24px; color:#fff; text-align:left; text-transform:uppercase;
+	display: block;
+	clear: both;
+	font-weight: normal;
+	border-bottom:1px solid #333;
+	color: #fff;
+	white-space: nowrap;
+	padding-left: 0px;
+	text-shadow: none;
+	padding: 3px 12px;
+	}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{
+	
+	left:171px;
+	top:0px; width: 170px; 	/* match top ul list item height */z-index:99;
+	
+	
+	 background:#12212F;
+
+
+ border-radius:0px;
+	
+	
+	 
+	  
+	  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	  -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	
+	}
+.sf-menu li li li{ text-align:left;  }
+
+.sf-menu li li li a{font-size: 13px; line-height: 24px; color:#fff; text-align:left; text-transform:uppercase;
+	
+	display: block;
+	
+	clear: both;
+	font-weight: normal;
+	border-bottom:1px solid #333;
+	color: #fff;
+	white-space: nowrap;
+	
+	padding-left: 0px;
+	text-shadow: none;
+	padding: 3px 12px; }
+.sf-menu li li a:hover, .sf-menu li li.sfHover>a{ color:#ebdf1b; background:#E35845; }
+
+.sf-menu .menu-arrow{display:none;}
+@media only screen and (max-width: 995px) {
+	 .menu-arrow{display:none;}
+}
+
+@media only screen and (max-width: 767px) {
+	header h1, .sf-menu li, nav{float:none;clear: both;}
+	header h1{margin-bottom: 20px;}
+	.sf-menu{background:#111f2c;}
+	.sf-menu>li, .sf-menu>li:first-child{background: url('../images/sub_li_r.png') 0 bottom repeat-x;}
+	.sf-menu>li>a{color:#F5D12F;padding: 9px 20px;display:block;}
+	.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{ color:#fff;}
+	.sf-menu>li:hover,.sf-menu>li.current,.sf-menu>li.sfHover{background-color:#224657;}
+	.sf-menu ul{position:relative;padding:0;background:none;left:0;top:0;}
+	.sf-menu>li>ul,.sf-menu>li.sfHover>ul{padding:0 0 20px;top:0px;left:30px;width:100%;background:none;}
+	.sf-menu li ul li{text-align:left;background:none;}
+	.sf-menu li li ul{left:0;top:0;background:none;padding:0 0 0 20px;}
+	
+	.sf-menu li a .menu-arrow{display:inline-block; width:10px;margin-left:15px;height:7px;text-indent:-100%; font-size:0; line-height:0;background: url('../images/arrow.png') no-repeat;vertical-align: middle;}
+	 .sf-menu a.sf-with-ul{padding-right:0px;}
+	 .sf-menu a:hover .menu-arrow, .sf-menu li.current>a .menu-arrow, .sf-menu .sfHover>a:hover .menu-arrow{background-position:0;}
+}
+
+@media only screen and (max-width: 479px) {
+	
+}

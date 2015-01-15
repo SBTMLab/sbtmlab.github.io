@@ -19,7 +19,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15959,
+				"buffer_size": 13236,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/data.js",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -60,7 +68,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Pusnow/Develop/sbtmlab.github.io"
+		"/C/Users/Pusnow/Develop/sbtmlab.github.io",
+		"/C/Users/Pusnow/Develop/sbtmlab.github.io/js"
 	],
 	"file_history":
 	[
@@ -126,7 +135,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -256,18 +265,18 @@
 				{
 					"buffer": 0,
 					"file": "index.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15959,
+						"buffer_size": 13236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								988,
-								988
+								2027,
+								2027
 							]
 						],
 						"settings":
@@ -280,10 +289,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

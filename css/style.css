@@ -3,6 +3,7 @@
 @import "superfish.css";
 @import "flexslider.css";
 @import "carousel.css";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
 	display: block
 }
@@ -39,7 +40,8 @@ html {
 	width: 100%
 }
 body {
-	font-family: "ClarendonLTStdLight", Arial, Helvetica, sans-serif;
+	font-family: 'Nanum Gothic', serif;
+	
 	font-size: 14px;
 	line-height: 24px;
 	color: #62676d;
